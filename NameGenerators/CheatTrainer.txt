@@ -1,0 +1,25 @@
+-start(base,base,base2,pre)
+-pre(base,base2)
+The 
+Super 
+-base(base2,sufix)
+Source
+Real
+Bit
+True
+Vision
+Fast
+Field
+Land
+Opti
+Core
+Cheat
+Script
+-base2(sufix)
+Pro
+-sufix(sufix2)
+ Trainer
+-sufix2(end)
+ Lite
+ Advanced
+ Premium

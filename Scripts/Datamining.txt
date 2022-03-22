@@ -1,0 +1,15 @@
+if (Product.GetVar("Datamining", true))
+	{
+	var extra = Product.Userbase * 0.25;
+	Product.DevCompany.MakeTransaction(extra, Sales, "Datamining");
+	Product.AddToCashflow(0, 0, 0, extra, 0, Time);
+	if (Random() * Product.Userbase > 400000)
+		{
+		LaunchLawsuit("SpyingOnUsers", Product.Sum, 1);
+		Product.DevCompany.AddFans(-Product.Userbase, Product.Category);
+		Product.Userbase = Product.Userbase * 0.05;
+		Product.KillAwareness();
+		Product.PutVar("Datamining", false);
+		AddPopup(Localize("SurveillanceNotification", Product.Name), 1, "Exclamation", Issue);
+		}
+	}

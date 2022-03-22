@@ -1,0 +1,4 @@
+NewPatch "A new patch was released for the game {0}"
+LootBox "Users are losing interest in the game {0} because of abusive microtransaction"
+DRM_user "Users are losing interest in the game {0} because of DRM use"
+DRM_crack "The game {0} has been cracked, DRM protection has lost its effect"

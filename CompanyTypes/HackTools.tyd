@@ -1,0 +1,15 @@
+CompanyType
+	{
+	Specialization		"Gaming Hack Tools"
+	PerYear				0.2
+	Min					1
+	Max					2
+	Frameworks			False
+	Types
+		[
+			{
+			Software 	"Gaming Hack Tools"
+			Chance 		1
+			}
+		]
+	}

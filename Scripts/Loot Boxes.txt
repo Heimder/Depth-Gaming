@@ -1,0 +1,10 @@
+var whales = Product.Userbase * 0.0015;
+var extra = whales * Product.Price / DaysPerMonth * 0.5;
+Product.DevCompany.MakeTransaction(extra, Sales, "Microtransaction");
+Product.AddToCashflow(0, 0, 0, extra, 0, Time);
+if (Random() * Product.Userbase > 400000)
+{
+	Product.Userbase = Product.Userbase * 0.8;
+	Product.DevCompany.AddFans(Product.Userbase * 0.8, Product.Category);
+	AddPopup(Localize("LootBox", Product.Name), 1, "Info", Warning);
+}

@@ -1,0 +1,35 @@
+-start(name)
+-name(end)
+Anvil
+BRender
+Build engine
+Clausewitz
+Clickteam Fusion
+Creation Engine
+CryEngine
+Crystal Tools
+Dark Engine
+Decima
+Forgelight Engine
+Frostbite
+Gamebryo
+GameMaker Studio
+Godot
+Infinity Engine
+HeroEngine
+Lumberyard
+Luminous Studio
+M.U.G.E.N
+OGRE
+REDengine
+Ren'Py
+RAGE
+SAGE
+SCUMM
+Snowdrop
+Source
+Unity
+Unigine
+Unreal
+VRAGE
+-end(stop)

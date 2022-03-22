@@ -1,0 +1,289 @@
+SoftwareType
+	{
+	Name			"Game Engine"
+	Category		Gaming Tools
+	Description		"The game engine is what powers a game. It contains everything needed for a game, except for the creativity."
+	Random			0.4
+	IdealPrice		90
+	OptimalDevTime	50
+	OSSupport		Computer
+	OneClient		False
+	InHouse			True
+	SubmarketNames	[ Technologies; Simplicity; Community ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Popularity		0.25
+			Submarkets		[ 1; 3; 2 ]
+			Retention		50
+			TimeScale		1
+			Iterative		0.9
+			NameGenerator	Engine
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Features"
+			Spec		System
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 0 ]
+			Features
+				[
+					{
+					Name		"ASCII Text Support"
+					Description	"Add text suport to games"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+                    Name        "Dev Mode"
+					Description	"In-game tools used to test the game."
+                    DevTime     3
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 1; 2; 0 ]
+                    }
+					{
+					Name		"Search"
+					Description	"Usefull to find assets"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					}
+					{
+					Name		"Scripting"
+					Description	"Seperate the game logic from the logic logic"
+					DevTime		3
+					Level		2
+					Unlock		1984
+					CodeArt		1
+					Submarkets	[ 4; 2; 1 ]
+					}
+					{
+					Name		"Modding Support"
+					Description	"People love mods in their games"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Unlock		2008
+					Submarkets	[ 1; 0; 2]
+					}
+					{
+					Name		"Multi-Thread Support"
+					Description	"Add suport to multiple core processor in games"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Unlock		2004
+					Submarkets	[ 2; 1; 0]
+					}
+					{
+                    Name        "Multi Language Support"
+					Description	"So people around the globe can use it"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 2 ]
+                    }
+				]
+			}
+			{
+			Name 			"2D Render"
+			Spec			2D
+			Dependencies	"2D Editor"
+			DevTime			4
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 1; 0; 0 ]
+			Features
+				[
+					{
+					Name		"2D Assets"
+					Description	"Help the developer along with some prepackaged assets"
+					DevTime		2
+					Level		1
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Interface Customization"
+					Description	"The user can change the position of things in the engine"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 3]
+					}
+					{
+                    Name       	"Themes"
+					Description	"Dark mode switch on!"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 0; 1 ]
+                    }
+					{
+					Name		"Visual Editor"
+					Description	"Drag'n'drop is the best"
+					DevTime		3
+					Level		1
+					CodeArt		0.9
+					Submarkets	[ 2; 4; 1 ]
+					}
+					{
+					Name		"Isometric 2D Suport"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 3; 2; 1 ]
+					}
+					{
+					Name		"Visual Scripting"
+					Description	"It's like programming, but you use the mouse more"
+					DevTime		5
+					Level		2
+					Unlock		1991
+					CodeArt		1
+					Submarkets	[ 2; 2; 1 ]
+					}
+				]
+			}
+			{
+			Name 			"3D Render"
+			Spec			3D
+			Dependencies	"3D Editor"
+			DevTime			5
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 2; 0; 0 ]
+			Features
+				[
+					{
+					Name		"3D Assets"
+					Description	"Like 2D assets, but with an extra dimension"
+					DevTime		5
+					Level		1
+					CodeArt		0
+					Submarkets	[ 2; 1; 1 ]
+					}
+					{
+					Name		"Lights"
+					Description	"The oposite of Shadows"
+					DevTime		0.5
+					Level		1
+					Unlock		1996
+					CodeArt		1
+					Submarkets	[ 2; 1; 0 ]
+					}
+					{
+					Name		"Shadows"
+					Description	"A very CREATIVE feature"
+					DevTime		0.5
+					Level		1
+					Unlock		1996
+					CodeArt		1
+					Submarkets	[ 2; 1; 0 ]
+					}
+					{
+					Name		"Advanced Shaders"
+					Description	"Not everything has to be flat! The irony is not lost on me"
+					DevTime		4
+					Level		2
+					Unlock		1999
+					CodeArt		1
+					Submarkets	[ 2; 2; 1 ]
+					}
+					{
+					Name		"Lens Flare Suport"
+					DevTime		4
+					Level		2
+					Unlock		1999
+					CodeArt		0.7
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Ray Tracing Suport"
+					Description	"Add suport to an advanced light system in games"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Unlock		2015
+					Submarkets	[ 3; 0; 0 ]
+					}
+					{
+					Name		"VR Suport"
+					Description	"Enable virtual reality in games"
+					DevTime		4
+					Level		2
+					Unlock		2010
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+			{
+			Name 			"Audio"
+			Spec			Audio
+			Dependencies	"Audio Tool"
+			DevTime			2
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 1; 1; 0 ]
+			Features
+				[
+					{
+					Name		"Audio Assets"
+					DevTime		2
+					Level		1
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+					}
+				]
+			}
+			{
+			Name 			"Networking"
+			Spec			Network
+			DevTime			5
+			Unlock			1990
+			CodeArt			1
+			Server			0.0003
+			Optional		True
+			Submarkets		[ 2; 0; 3 ]
+			Features
+				[
+					{
+					Name		"LAN Multiplayer Suport"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Unlock		1990
+					Submarkets	[ 5; 1; 0 ]
+					}
+					{
+					Name		"Internet Multiplayer Suport"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Server		0.002
+					Unlock		1995
+					Submarkets	[ 5; 1; 0 ]
+					}
+					{
+					Name		"Assets Store"
+					Description	"Sell assets online for a bit more profit"
+					DevTime		4
+					Level		3
+					Server		0.025
+					CodeArt		1
+					Submarkets	0
+					Script_EndOfDay "/Scripts/Assets Store.txt"
+					}
+				]
+			}
+		]
+	}

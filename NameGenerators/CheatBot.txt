@@ -1,0 +1,30 @@
+-start(base,base2,base2,pre)
+-pre(base,base2,base2)
+The 
+-base(base2)
+Super
+Mega
+Giga
+Hyper
+-base2(base3,sufix)
+Source
+Real
+Bit
+True
+Vision
+Fast
+Field
+Land
+Opti
+Core
+Cheat
+Script
+-base3(sufix)
+Pro
+-sufix(sufix2)
+ Bot
+ AimBot
+-sufix2(end)
+ Lite
+ Advanced
+ Premium

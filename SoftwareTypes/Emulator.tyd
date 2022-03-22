@@ -1,0 +1,310 @@
+SoftwareType
+	{
+	Name			"Emulator"
+	Category		Gaming Tools
+	Description		"Used by developers to test their games, but users can use it to practice piracy (dont do it yourself)"
+	Unlock			1994
+	Random			0.6
+	IdealPrice		5
+	OptimalDevTime	25
+	OSSupport		True
+	OneClient		False
+	SubmarketNames	[ Stability; Simplicity; Community ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Popularity		0.95
+			Submarkets		[ 3; 1; 1 ]
+			Retention		24
+			TimeScale		1
+			Iterative		0.75
+			NameGenerator	Emulator
+			}
+		]
+	Features
+		[
+			{
+			Name 			"Features"
+			Spec			System
+			DevTime			1
+			CodeArt			1
+			Submarkets		[ 1; 1; 0 ]
+			Features
+				[
+					{
+                    Name        "Speed Control"
+					Description	"Allow users to speed or slow dowm the game"
+                    DevTime     1
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 2; 1 ]
+                    }
+					{
+                    Name        "Multi Language Support"
+					Description	"So people around the globe can use it"
+                    DevTime     1
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 2 ]
+                    }
+					{
+                    Name        "Keybinding"
+					Description	"Allow users to redefine the imputs of the game"
+                    DevTime     1
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 0 ]
+                    }
+					{
+                    Name        "Save State"
+					Description	"For save scumming"
+                    DevTime      2
+                    Level        1
+                    CodeArt      1
+					Unlock       2000
+                    Submarkets   [ 0; 0; 2 ]
+                    }
+					{
+					Name        "Light Gun Input"
+                    DevTime     3
+                    Level       1
+                    CodeArt     1
+					Unlock      1982
+                    Submarkets 	[ 0; 1; 0 ]
+                    }
+					{
+                    Name        "Cheat Options"
+					Description	"Allow users to be cheaters"
+                    DevTime     3
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 2 ]
+                    }
+					{
+                    Name        "Physical Media Suport"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 0; 2; 1 ]
+                    }
+					{
+                    Name        "Plugin Suport"
+					Description	"Allow users create plugins to improve the emulator"
+                    DevTime     3
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 3; 1; 2 ]
+                    }
+					{
+					Name		"IPS Auto-Patching"
+					Description	"Enable the emulator to aply IPS patches automaticaly"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+                    Name        "Touch Support"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 0; 2; 0 ]
+                    }
+					{
+                    Name        "Motion Support"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+					Unlock      1991
+                    Submarkets  [ 0; 2; 0 ]
+                    }
+					{
+					Name		"Multi-Thread Support"
+					Description	"Add suport to multiple core processor"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Unlock		2004
+					Submarkets	[ 2; 1; 0]
+					}
+				]
+			}
+			{
+			Name 			"Interface"
+			Spec			2D
+			Dependencies	"2D Editor"
+			DevTime			1
+			CodeArt			0.3
+			Submarkets		[ 0; 1; 2 ]
+			Features
+				[
+					{
+                    Name        "Emulated BIOS"
+					Description	"Allow the emulator to reproduce the scary intro sounds"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 0 ]
+                    }
+					{
+					Name		"Filter Option"
+					Description	"Add some filters options to cahnge de apperance of the game"
+					DevTime		2
+					Level		1
+					CodeArt		0.3
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Interface Customization"
+					Description	"The user can change the position of things in the emulator"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 3]
+					}
+					{
+					Name		"Show Clock Option"
+					Description	"To know the hours or for speedrunning"
+					DevTime		0.5
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 2; 1]
+					}
+					{
+					Name		"Show FPS Option"
+					Description	"The user can chose if the emulator will show the game frame per second rate"
+					DevTime		0.5
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 2; 1]
+					}
+					{
+					Name		"ScreenShot Support"
+					Description	"Users can save an image of current gameplay"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+                    Name       	"Themes"
+					Description	"Dark mode switch on!"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 0; 1 ]
+                    }
+					{
+					Name		"Movie Record"
+					Description	"Users can record the current gameplay"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 3 ]
+					}
+					{
+					Name		"Video Configuration"
+					Description	"The user can change aspectio rate, scaling, etc..."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					}
+				]
+			}
+			{
+			Name 			"3D Rendering"
+			Spec			3D
+			Dependencies	"3D Editor"
+			DevTime			5
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 2; 0; 0 ]
+			Features
+				[
+					{
+					Name		"VR Suport"
+					Description	"Enable suport to VR devices"
+					DevTime		4
+					Level		2
+					Unlock		2010
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+				]
+			}
+			{
+			Name 			"Audio"
+			Spec			Audio
+			Dependencies	"Audio Tool"
+			DevTime			2
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 1; 1; 0 ]
+			Features
+				[
+					{
+					Name		"User Input Speech"
+					Description	"For games that use speech commands"
+					DevTime		4
+					Level		2
+					CodeArt		0.75
+					Submarkets	[ 1; 0; 2 ]
+					}
+				]
+			}
+			{
+			Name 			"Networking"
+			Spec			Network
+			DevTime			5
+			Unlock			1990
+			CodeArt			1
+			Server			0.0003
+			Optional		True
+			Submarkets		[ 0; 2; 3 ]
+			Features
+				[
+					{
+					Name		"LAN Multiplayer Suport"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Unlock		1990
+					Submarkets	[ 0; 1; 5 ]
+					}
+					{
+					Name		"Internet Multiplayer Suport"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Server		0.02
+					Unlock		1999
+					Submarkets	[ 0; 1; 5 ]
+					}
+					{
+					Name		"Datamining"
+					Description	"Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+					Server		0.0005
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Unlock		1990
+					Submarkets	0
+					Script_EndOfDay "/Scripts/Datamining.txt"
+					}
+					{
+					Name		"Bitcoin Mining"
+					Description	"Mine bitcoin using your users' GPU to make an extra {Currency:0.1} per active user, at the risk of getting caught"
+					DevTime		6
+					Level		3
+					CodeArt		1
+					Server		0.0005
+					Unlock		2009
+					Submarkets	0
+					Script_EndOfDay "/Scripts/Bitcoin Mining.txt"
+					}
+				]
+			}
+		]
+	}

@@ -1,0 +1,18 @@
+if (Product.GetVar("Datamining", true))
+	{
+	var extra = Product.Userbase * 0.5;
+	Product.DevCompany.MakeTransaction(extra, Sales, "DRM");
+	Product.AddToCashflow(0, 0, 0, extra, 0, Time);
+
+	if (Random() * Product.Userbase > 200000)
+		{
+		Product.Userbase = Product.Userbase * 0.7;
+		Product.DevCompany.AddFans(Product.Userbase * 0.7, Product.Category);
+		AddPopup(Localize("DRM_user", Product.Name), 1, "Info", Warning);
+		}
+	if (Random() > 0.9)
+		{
+		Product.PutVar("Cracked", false);
+		AddPopup(Localize("DRM_crack", Product.Name), 1, "Info", Warning);
+		}
+	}

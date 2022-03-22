@@ -1,0 +1,28 @@
+-start(base,base,base,pre)
+-pre(base)
+Super 
+The 
+-base(sufix)
+Racing
+Air
+Plane
+Horse
+Train
+Space
+F1
+Toy
+Dream
+Speed
+World
+-sufix(baseLong3,stop)
+ Go!
+ Cup
+ Championship
+ Race
+ Tour
+-baseLong3(stop)
+ Ultra
+ Lite
+ Delux
+ GT
+ Extreme

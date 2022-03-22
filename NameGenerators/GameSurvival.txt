@@ -1,0 +1,29 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,sufix)
+Grave
+Gun
+Zombie
+Monster
+Space
+Curse
+Hell
+Mine
+Survive
+Last
+Outlast
+-base2(stop,sufix,sufix2)
+craft
+space
+-sufix(sufix2,stop)
+ World
+ Town
+ Survival
+ in Space
+ at Night 
+-baseLong3(stop)
+ Evolved
+ Lite
+ Deluxe
+ Advanced 

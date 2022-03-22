@@ -1,0 +1,20 @@
+CompanyType
+	{
+	Specialization		"Gaming Tools"
+	PerYear				0.2
+	Min					1
+	Max					1
+	Frameworks			False
+	NameGen				CompanyGames
+	Types
+		[
+			{
+			Software 	"Game Engine"
+			Chance 		1
+			}
+			{
+			Software 	"Emulator"
+			Chance 		1
+			}
+		]
+	}

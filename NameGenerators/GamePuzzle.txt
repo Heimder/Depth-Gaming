@@ -1,0 +1,27 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,sufix)
+Candy
+Tricky
+Simple
+Space
+City
+Kingdom
+Battleship
+Game
+-base2(sufix)
+World
+craft
+Base
+front
+-sufix(end,stop)
+ Crush
+ Madness
+ Escape
+ Puzzle
+ Secret
+-end(stop)
+ Deluxe
+ Extreme
+ Lite

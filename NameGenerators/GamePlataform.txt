@@ -1,0 +1,44 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+Super 
+-base(base2,sufix)
+Baby
+Horse
+Goat
+House
+Star
+Grave
+Gun
+Zombie
+Thief
+Monster
+Space
+Air
+Skate
+Curse
+Foot
+Dream
+Army
+Kingdom
+Tower
+Jump
+-base2(stop,sufix)
+Go!
+Attack
+wars
+World
+Beans
+Clans
+craft
+Gangs
+-sufix(stop)
+ World
+ Jumper
+ Adventure
+ Island
+ Land
+ Jungle
+ Sky
+ Warrior
+ Dragon

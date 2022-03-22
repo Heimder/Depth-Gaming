@@ -1,0 +1,295 @@
+SoftwareType
+	{
+	Name			"Gaming Hack Tools"
+	Category		Gaming Hack Tools
+	Description		"These tools was made either for fun, or to gain some advantage over other players"
+	Unlock          1980
+	Random			0.1
+	OptimalDevTime	25
+	OSSupport		True
+	OneClient		False
+	SubmarketNames	[ Technologies; Simplicity; Hiddenness ]
+	Categories
+		[
+			{
+			Name			"Game Trainer"
+			Description		"Basic software to enable cheats in games or modify the memory"
+			Popularity		0.4
+			Submarkets		[ 2; 1; 0 ]
+			Retention		9
+			TimeScale		1
+			Iterative		0.75
+			IdealPrice		10
+			NameGenerator	CheatTrainer
+			}
+			{
+			Name			"Bot"
+			Description		"Tools made to give player advantages in online games"
+			Popularity		0.7
+			Submarkets		[ 1; 1; 1 ]
+			Retention		6
+			TimeScale		1
+			Iterative		0.75
+			IdealPrice		25
+			Unlock			1990
+			NameGenerator	CheatBot
+			}
+		]
+	Features
+		[
+			{
+			Name 			"Features"
+			Spec			System
+			DevTime			1
+			CodeArt			1
+			Submarkets		[ 1; 1; 0 ]
+			Features
+				[
+					{
+					Name		"Obfuscation"
+					Description "Hide the software presence."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+                    Name        "Dev Mode"
+					Description	"Give users access to dev tools"
+                    DevTime     3
+                    Level       2
+                    CodeArt     1
+					SoftwareCategories 	[Game Trainer]
+                    Submarkets  [ 1; 2; 0 ]
+                    }
+					{
+                    Name        "God Mode"
+					Description	"Give users invencibility"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+					SoftwareCategories 	[Game Trainer]
+                    Submarkets  [ 1; 1; 0 ]
+                    }
+					{
+                    Name        "Macro"
+					Description	"Bind a set of sequential or parallel actions into one simple key."
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 1; 2; 0 ]
+                    }
+					{
+                    Name        "Multi Language Support"
+					Description	"So people around the globe can use it"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 1; 2; 0 ]
+                    }
+					{
+                    Name        "Multi Instance"
+					Description	"Allow to open the game in two different windows"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+					SoftwareCategories 	[Game Trainer]
+                    Submarkets  [ 2; 1; 0 ]
+                    }
+					{
+					Name		"Search"
+					Description	"To find cheats easily"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					SoftwareCategories 	[Game Trainer]
+					Submarkets	[ 1; 3; 0 ]
+					}
+					{
+					Name		"DLL Injection"
+					Description	"Inject custom user scripts into the game."
+					DevTime		3
+					Level		2
+					Unlock		1984
+					CodeArt		1
+					SoftwareCategories 	[Game Trainer]
+					Submarkets	[ 4; 2; 1 ]
+					}
+					{
+					Name		"Triggerbot"
+					Description	"Automatically shoots when an opponent appears within the field-of-view or aiming reticule of the player."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 2; 0]
+					SoftwareCategories 	[Bot]
+					}
+					{
+					Name		"IAbot"
+					Description	"A bot that mimic a player, so the user can “play” while is away."
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 2; 0]
+					SoftwareCategories 	[Bot]
+					}
+				]
+			}
+			{
+			Name 			"Interface"
+			Spec			2D
+			Dependencies	"2D Editor"
+			DevTime			1
+			CodeArt			0.3
+			Optional		True
+			Submarkets		[ 1; 2; 0 ]
+			Features
+				[
+					{
+					Name		"AimBot"
+					Description	"Provide varying levels of automated target acquisition and calibration to the player"
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 1; 2; 0]
+					SoftwareCategories 	[Bot]
+					}
+					{
+					Name		"HUD"
+					Description	"Adds a HUD for easy cheat selection or other propouses."
+					DevTime		2
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Show FPS"
+					Description	"Show the game frame per second rate"
+					DevTime		0.5
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 1; 2; 0]
+					}
+				]
+			}
+			{
+			Name 			"3D Game Cheats"
+			Spec			3D
+			Dependencies	"3D Editor"
+			DevTime			5
+			CodeArt			1
+			Optional		True
+			Submarkets		[ 2; 1; 0 ]
+			Features
+				[
+				{
+				Name		"Wallhack"
+				Description "Allow a user to see through solid or opaque objects"
+				DevTime		1
+				Level		1
+				CodeArt		0.1
+				Submarkets	[ 1; 2; 0 ]
+				}
+				{
+				Name		"Fly"
+				Description "The user is able to fly!!"
+				DevTime		3
+				Level		2
+				CodeArt		1
+				Submarkets	[ 1; 1; 0 ]
+				SoftwareCategories 	[Game Trainer]
+				}
+				{
+				Name		"Noclip"
+				Description "Remove temporary the physics of the game, so the user can pass through walls."
+				DevTime		2
+				Level		2
+				CodeArt		1
+				Submarkets	[ 1; 1; 0 ]
+				SoftwareCategories 	[Game Trainer]
+				}
+				]
+			}
+			{
+			Name 			"Networking"
+			Spec			Network
+			DevTime			5
+			Unlock			1990
+			CodeArt			1
+			Server			0.0003
+			Optional		True
+			Submarkets		[ 3; 2; 0 ]
+			Features
+				[
+					{
+					Name		"Player Search"
+					Description "The user can search for online players"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					SoftwareCategories 	[Game Trainer]
+					Submarkets	[ 1; 1; 0 ]
+					}
+					{
+					Name		"VPN"
+					Description "Virtual Private Network, used to hide the IP of users"
+					Server		0.0001
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Unlock		1996
+					Submarkets	[ 1; 0; 2 ]
+					}
+					{
+					Name		"Artificial Lag"
+					Description	"Overflow the user or someone with junk data, what cause lagging on propose."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 2; 1; 0]
+					SoftwareCategories 	[Game Trainer]
+					}
+					{
+					Name		"Moderator Privilege"
+					Description "The user can give yourself a moderator status in online games"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					SoftwareCategories 	[Game Trainer]
+					Submarkets	[ 1; 2; 0 ]
+					}
+					{
+					Name		"DDoS Attack"
+					Description "Distributed denial of service can be used to overflow a game server with junk data and shut it down"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					SoftwareCategories 	[Game Trainer]
+					}
+					{
+					Name		"Datamining"
+					Description	"Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+					Server		0.0005
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Unlock		1990
+					Submarkets	0
+					Script_EndOfDay "/Scripts/Datamining.txt"
+					}
+					{
+					Name		"Bitcoin Mining"
+					Description	"Mine bitcoin using your users' GPU to make an extra {Currency:0.1} per active user, at the risk of getting caught"
+					DevTime		6
+					Level		3
+					CodeArt		1
+					Server		0.0005
+					Unlock		2009
+					Submarkets	0
+					Script_EndOfDay "/Scripts/Bitcoin Mining.txt"
+					}
+				]
+			}
+		]
+	}

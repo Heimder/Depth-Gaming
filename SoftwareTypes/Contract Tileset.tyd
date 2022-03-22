@@ -1,0 +1,73 @@
+SoftwareType
+{
+	Name			"Tileset"
+	Category		Game Assets
+	Random			0
+	Popularity		0
+	Retention		1
+	IdealPrice		0
+	OptimalDevTime	1
+	SubmarketNames	[ 0; 0; 0 ]
+	Iterative		1
+	NameGenerator	None
+	OneClient		True
+	Features
+	[
+		Feature
+		{
+			Name		"2D Art"
+			Spec		2D
+			DevTime		1
+			CodeArt		0
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"Concept art"
+					DevTime		3
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Canvas Size"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Palette Color"
+					DevTime		1
+					Level		1
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+				}
+			]
+		}
+		Feature
+		{
+			Name		"3D Render"
+			Spec		3D
+			Optional	True
+			Unlock		1990
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"3D Rendered"
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 1; 1; 1 ]
+				}
+			]
+		}
+	]
+}

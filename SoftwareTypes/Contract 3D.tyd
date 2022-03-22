@@ -1,0 +1,80 @@
+SoftwareType
+{
+	Name			"3D Model"
+	Category		Game Assets
+	Random			0
+	Popularity		0
+	Retention		1
+	IdealPrice		0
+	OptimalDevTime	1
+	SubmarketNames	[ 0; 0; 0 ]
+	Iterative		1
+	NameGenerator	None
+	OneClient		True
+	Unlock			1990
+	Features
+	[
+		Feature
+		{
+			Name		"2D Art"
+			Spec		2D
+			DevTime		1
+			CodeArt		0
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"Concept art"
+					DevTime		3
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Textures"
+					DevTime		2
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+				}
+			]
+		}
+		Feature
+		{
+			Name		"3D Models"
+			Spec		3D
+			DevTime		5
+			CodeArt		0
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"Facial animations"
+					DevTime		2
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Simulated Hair and Cloth"
+					DevTime		3
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Rigging and Animation"
+					DevTime		3
+					Level		3
+					CodeArt		0
+					Submarkets	[ 1; 1; 1 ]
+				}
+			]
+		}
+	]
+}

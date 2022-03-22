@@ -1,0 +1,30 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,sufix)
+Gun
+Thief
+Soldier
+Metal
+Silent
+Stealth
+Stealthy
+Deadly
+-base2(sufix,sufix2,stop)
+ Gear
+wars
+Clans
+Gangs
+front
+Base
+-sufix(sufix2,stop)
+ Attack
+ Assassin 
+ Ninja
+ Sniper
+ Battle
+ Camp
+ Killer
+-sufix2(stop)
+ at Night
+ of Death

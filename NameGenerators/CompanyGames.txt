@@ -1,0 +1,98 @@
+[REPLACE]
+-start(base,base,base,base,egg)
+-base(stop)
+1-Up Studio
+2K Games
+3D Realms
+4A Games
+Acclaim Entertainment
+Activision
+Amazon Game Studios
+Arc System Works
+Atlus
+Bethesda Game Studios
+BioWare
+Black Isle Studios
+Blizzard Entertainment
+Bluehole
+Bohemia Interactive
+Bullfrog Productions
+Bungie
+CD Projekt Red
+Codemasters
+Colossal Order
+Core Design
+Creative Assembly
+Criterion Games
+Crystal Dynamics
+Crytek
+Deep Silver Volition
+Electronic Arts
+Epic Games
+Firaxis Games
+Firefly Studios
+Focus Home Interactive
+FromSoftware
+Frontier Developments
+Game Freak
+Gearbox Software
+Gravity
+HAL Laboratory
+Hudson Soft
+id Software
+Interplay Entertainment
+Irrational Games
+Keen Software House
+Klei Entertainment
+Koei Tecmo Games
+Kojima Productions
+Lionhead Studios
+LucasArts
+Maxis
+miHoYo
+Mojang
+Natsume
+Naughty Dog
+NetherRealm Studios
+Neversoft
+Niantic
+Ninja Theory
+Obsidian Entertainment
+Paradox Interactive
+Pendulo Studios
+Piranha Bytes
+Playground Games
+PlatinumGames
+PopCap Games
+Rare
+Raven Software
+Respawn Entertainment
+Riot Games
+Rockstar Games
+Rocksteady Studios
+SCS Software
+Sierra Entertainment
+Square Enix
+Squad
+Studio Wildcard
+Team17
+Tecmo
+Telltale Games
+Tencent Games
+THQ Nordic
+Treyarch
+Triumph Studios
+Turn 10 Studios
+Two Point Studios
+Ubisoft
+Undead Labs
+Valve
+Visceral Games
+Warner Bros.
+Westwood Studios
+Xbox Game Studios
+ZeniMax Online Studios
+Zynga
+-egg(stop)
+Coredumping
+Depth Gaming

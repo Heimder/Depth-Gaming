@@ -1,0 +1,724 @@
+SoftwareType
+	{
+	Name			"Game"
+	Category		Gaming
+	Description		"Interactive art."
+	Override		True
+	Random			0.6
+	IdealPrice		80
+	OptimalDevTime	40
+	OSSupport		True
+	SubmarketNames	[ Gameplay; Graphics; Story ]
+	Categories
+		[
+			{
+			Name			Adventure
+			Popularity		0.6
+			Retention		18
+			TimeScale		1
+			Iterative		0.8
+			NameGenerator	GameAdventure
+			Submarkets		[ 2; 4; 4 ]
+			}
+			{	
+            Name            Battle Royale #new category
+			Description		"Only one can remain"
+			Popularity		0.85
+			Retention		24
+			TimeScale		1
+			Iterative		0.9
+			Server      	0.001
+			Unlock          2010
+			NameGenerator	GameBattleRoyale
+			Submarkets		[ 3; 1; 1 ]
+			}
+			{
+			Name			Beat‘em up #new category
+			Description		"Beat every enemy you see!"
+			Popularity		0.5
+			Retention		18
+			TimeScale		0.9
+			Iterative		0.85
+			Unlock          1983
+			NameGenerator	GameFighting
+			Submarkets		[ 3; 2; 1 ]
+			}
+			{
+			Name			Board #new category
+			Description		"Digital tabletop game"
+			Popularity		0.4
+			Retention		24
+			TimeScale		0.9
+			Iterative		0.3
+			NameGenerator	GameBoard
+			Submarkets		[ 4; 1; 0 ]
+			}
+			{
+			Name			Fighting #new category
+			Popularity		0.7
+			Retention		18
+			TimeScale		1
+			Iterative		0.95
+			Unlock          1974
+			NameGenerator	GameFighting
+			Submarkets		[ 2; 2; 0 ]
+			}
+			{
+			Name			Platform #new category
+			Popularity		0.8
+			Retention		18
+			TimeScale		0.6
+			Iterative		0.6
+			Unlock          1976
+			NameGenerator	GamePlataform
+			Submarkets		[ 3; 3; 2 ]
+			}
+			{
+			Name			Puzzle #new category
+			Popularity		0.4
+			Retention		12
+			TimeScale		1
+			Iterative		0.96
+			NameGenerator	GamePuzzle
+			Submarkets		[ 3; 1; 0 ]
+			}
+			{
+			Name			Racing #new category
+			Popularity		0.8
+			Retention		24
+			TimeScale		1
+			Iterative		0.95
+			NameGenerator	GameRacing
+			Submarkets		[ 2; 3; 1 ]
+			}
+			{
+			Name			RPG
+			Description		"Role Playing Game"
+			Popularity		0.6
+			Retention		24
+			TimeScale		1
+			Iterative		0.8
+			NameGenerator	GameRPG
+			Submarkets		[ 1; 2; 4 ]
+			}
+			{
+			Name			Shooter #changed from FPS to Shooter
+			Popularity		0.9
+			Retention		24
+			TimeScale		1
+			Iterative		0.95
+			NameGenerator	GameFPS
+			Submarkets		[ 4; 2; 1 ]
+			}
+			{
+			Name			Simulation
+			Description		"You're playing one!"
+			Popularity		0.4
+			Retention		18
+			TimeScale		1
+			Iterative		0.7
+			NameGenerator	GameSimulation
+			Submarkets		[ 3; 1; 0 ]
+			}
+			{
+			Name			Sports
+			Popularity		0.7
+			Retention		12
+			TimeScale		0.75
+			Iterative		0.95
+			NameGenerator	GameSport
+			Submarkets		[ 1; 0; 0 ]
+			}
+			{
+			Name			Stealth #new category
+			Popularity		0.8
+			Retention		24
+			TimeScale		1
+			Iterative		0.9
+			Unlock          1977
+			NameGenerator	GameStealth
+			Submarkets		[ 3; 3; 2 ]
+			}
+			{
+			Name			Strategy #changed from RTS to Strategy
+			Popularity		0.55
+			Retention		18
+			TimeScale		1
+			Iterative		0.95
+			NameGenerator	GameRTS
+			Submarkets		[ 4; 1; 2 ]
+			}
+			{
+			Name			Survival #new category
+			Popularity		0.7
+			Retention		18
+			TimeScale		0.9
+			Iterative		0.75
+			NameGenerator	GameSurvival
+			Submarkets		[ 2; 4; 2 ]
+			}
+		]
+	Features
+		[
+			{
+			Name			Game Design
+			Spec			System
+			Dependencies	"Game Engine"
+			DevTime			4
+			CodeArt			1
+			Submarkets		[ 1; 0; 1 ]
+			Features
+				[
+					{
+					Name		"Open World"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 3; 1; 2 ]
+					}
+					{
+					Name		"Physics"
+					Description	"Bouncy stuff"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Dialog Trees"
+					Description	"Give the player a voice, and then make their character say something slightly different in-game"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Branching Story"
+					Description	"Multiple different paths all leading to the same destination"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 5 ]
+					}
+					{
+					Name		"Mod Support"
+					Description	"You can mod this feature out of the game if you want"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Customizable Character"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					#New Fetures
+					{
+					Name				"Hack and Slash"
+					Description			"Subgenre of Beat‘em up that use wepons instead of fists"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Submarkets			[ 1; 0; 0 ]
+					SoftwareCategories 	[Beat‘em up]
+					}
+					{
+					Name				"FPS"
+					Description			"First Person Shooter, subgenre of shooter"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Unlock          	1990
+					Submarkets			[ 3; 4; 1 ]
+					SoftwareCategories 	[Shooter]
+					}
+					{
+					Name				"RTS"
+					Description			"Real Time Strategy, subgenre of strategy"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Unlock          	1988
+					Submarkets			[ 4; 1; 2 ]
+					SoftwareCategories 	[Strategy]
+					}
+					{
+					Name				"Tactics"
+					Description			"Subgenre of strategy that are grid based"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Unlock          	1988
+					Submarkets			[ 4; 1; 1 ]
+					SoftwareCategories 	[Strategy]
+					}
+					{
+					Name				"Action RPG"
+					Description			"Less turn based"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Submarkets			[ 1; 0; 0 ]
+					SoftwareCategories 	[RPG]
+					}
+					{
+					Name				"Horror"
+					Description			"Put some spooky scary things into the game"
+					DevTime				0.5
+					Level				1
+					CodeArt				1
+					Unlock          	1994
+					Submarkets			[ 3; 3; 2 ]
+					SoftwareCategories 	[Adventure; Survival]
+					}
+					{
+					Name				"JumpScares"
+					DevTime				2
+					Level				1
+					CodeArt				1
+					Unlock      		1994
+					Submarkets			[ 4; 1; 4 ]
+					SoftwareCategories	[Adventure; Survival]
+					}
+					{
+					Name        		"Light Gun Input"
+                    DevTime     		3
+                    Level       		1
+                    CodeArt     		1
+                    Submarkets  		[ 1; 0; 0 ]
+					SoftwareCategories 	[Shooter]
+                    }
+					{					
+					Name		"Replayable Levels"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 1 ]
+					}
+					{
+                    Name        "Touch Support"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 2; 0; 0 ]
+                    }
+					{
+                    Name        "Motion Support"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+					Unlock      1991
+                    Submarkets  [ 2; 0; 0 ]
+                    }
+					{
+                    Name        "Game Modes"
+                    DevTime      3
+                    Level        1
+                    CodeArt      1
+                    Submarkets   [ 1; 0; 0 ]
+                    }
+					{
+                    Name        "Save Game"
+                    DevTime      2
+                    Level        1
+                    CodeArt      1
+					Unlock       1978
+                    Submarkets   [ 1; 0; 0 ]
+                    }
+					{
+                    Name        "Quick Save"
+                    DevTime      3
+                    Level        2
+                    CodeArt      1
+					Unlock       2000
+                    Submarkets   [ 2; 0; 0 ]
+                    }
+					{
+                    Name        "Autosave"
+                    DevTime      3
+                    Level        2
+                    CodeArt      1
+					Unlock       2000
+                    Submarkets   [ 2; 0; 0 ]
+                    }
+					{
+                    Name        "Local Multiplayer"
+                    Description "Together is better"
+                    DevTime     3
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 1; 0; 0 ]
+                    } 
+					{
+					Name		"Day/Night"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					}
+					{
+					Name		"Weather"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					}
+					{
+					Name				"Seasons"
+					DevTime				6
+					Level				2
+					CodeArt				1
+					Submarkets			[ 1; 3; 2 ]
+					SoftwareCategories	[Simulation; Survival]
+					}
+					{
+					Name				"Player Needs"
+					DevTime				2
+					Level				1
+					CodeArt				1
+					Submarkets			[ 2; 0; 1 ]
+					SoftwareCategories	[Survival]
+					}
+					{
+					Name		"Economy"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 3; 0; 1 ]
+					}
+					{
+                    Name        "Multi Language Support"
+					Description	"So people around the globe can use it"
+                    DevTime     2
+                    Level       1
+                    CodeArt     1
+                    Submarkets  [ 0; 1; 2 ]
+                    }
+					{
+                    Name        "Cheat Codes"
+					Description	"Sometimes gamers only want to have some fun."
+                    DevTime     3
+                    Level       2
+                    CodeArt     1
+                    Submarkets  [ 1; 0; 0 ]
+                    }
+				]
+			}
+			{
+			Name			2D Graphics
+			Spec			2D
+			DevTime			5
+			CodeArt			0.5
+			Dependencies	"2D Editor"
+			Submarkets		[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Advanced HUD"
+					Description	"Add some more GUI to your game"
+					DevTime		4
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Post-Processing"
+					Description	"\#Bloom"
+					DevTime		3
+					Level		1
+					CodeArt		0.75
+					Submarkets	[ 0; 1; 0 ]
+					}
+					#New Fetures
+					{
+					Name		"Text"
+					Description "The most basic stuff"
+					DevTime     1
+					Level       1
+					CodeArt     0.6
+					Submarkets  [ 0; 1; 3 ]
+					}
+					{
+                    Name        "Inventory System"
+                    DevTime      3
+                    Level        2
+                    CodeArt      1
+                    Submarkets   [ 1; 1; 0 ]
+                    }
+					{
+					Name		"Isometric 2D"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Anaglyph 3D"
+					Description	"A software technique to create stereoscopic 3D effect, the user need a special anaglyph glasses to feel the effect."
+					DevTime		3
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"3D Renderer"
+					Description	"Render 3D models into sprites to be used in 2D games"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Unlock		1984
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Parallax Scrolling"
+					Description	"Parallax scrolling is a technique in computer graphics where background images move past the camera more slowly than foreground images, creating an illusion of depth in a 2D scene of distance"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Themes"
+					Description	"Users can change the aparence of the game"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 1 ]
+					}
+				]
+			}
+			{
+			Name			3D Graphics
+			Spec			3D
+			Optional		True
+			DevTime			6
+			CodeArt			0.5
+			Dependencies	"3D Editor"
+			Submarkets		[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Shadows"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Cutscenes"
+					DevTime		6
+					Level		2
+					CodeArt		0
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"VR"
+					Description	"Virtual Reality"
+					DevTime		6
+					Level		1
+					CodeArt		1
+					Unlock		2010
+					Submarkets	[ 1; 2; 0 ]
+					}
+					{
+					Name		"Facial Animations"
+					DevTime		4
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 0; 4; 1 ]
+					}
+					{
+					Name		"Procedural Generation"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Wacky Physics"
+					Description	"Boost your launch marketing with viral videos by introducing some bugs to your physics objects"
+					DevTime		4
+					Level		3
+					CodeArt		0
+					Submarkets	0
+					Script_OnRelease "/Scripts/Wacky Physics1.txt"
+					Script_WorkItemChange "/Scripts/Wacky Physics2.txt"
+					}
+					#New Fetures
+					{
+					Name		"Horror Lighting Effects"
+					DevTime		3
+					Level		1
+					CodeArt		0.7
+					Submarkets	[ 0; 1; 0 ]
+					SoftwareCategories	[Adventure; Survival]
+					}
+					{
+					Name		"Cel Shading"
+					DevTime		3
+					Level		1
+					CodeArt		0.5
+					Unlock		1998
+					Submarkets	[ 0; 1; 0 ]
+					}					
+					{
+					Name		"Ray Tracing"
+					Description	"Ray tracing is a rendering technique for generating an image by tracing the path of light as pixels in an image plane and simulating the effects of its encounters with virtual objects."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Unlock		2015
+					Submarkets	[ 1; 2; 0 ]
+					}
+				]
+			}
+			{
+			Name			Audio
+			Spec			Audio
+			DevTime			3
+			CodeArt			0.5
+			Dependencies	"Audio Tool"
+			Submarkets		[ 1; 0; 2 ]
+			Features
+				[
+					{
+					Name		"Recorded Dialog"
+					DevTime		6
+					Level		2
+					CodeArt		0
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Adaptive Music"
+					DevTime		3
+					Level		1
+					CodeArt		0.25
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"Digital Exclusive Music"
+					Description	"Convert some of your physical sales to digital, losing some of your physical sales in the process"
+					DevTime		2
+					Level		3
+					CodeArt		0
+					Submarkets	0
+					Script_AfterSales "/Scripts/Digital Exclusive Music.txt"
+					}
+					#New Fetures
+					{
+					Name		"3D Audio"
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Unlock		1999
+					Submarkets	[ 0; 9; 0 ]
+					}
+					{
+					Name		"User Input Speech"
+					Description	"Allow teenagers to scream obscenities"
+					DevTime		8
+					Level		2
+					CodeArt		0.75
+					Submarkets	[ 1; 0; 2 ]
+					}
+				]
+			}
+			{
+			Name			Network
+			Spec			Network
+			Dependencies	"Game Engine"
+			Optional		True
+			Unlock			1990
+			DevTime			6
+			CodeArt			1
+			Server			0.0003
+			Submarkets		[ 1; 0; 0 ]
+			Features
+				[
+					{
+					Name		"MMO"
+					Description "Massively Multiplayer Online"
+					DevTime		10
+					Level		2
+					CodeArt		1
+					Server		0.002
+					Submarkets	[ 1; 0; 0 ]
+					}					
+					#New Fetures
+					{
+					Name				"MOBA"
+					Description			"Multiplayer Online Battle Arena, subgenre of strategy that are played online"
+					DevTime				4
+					Level				2
+					CodeArt				1
+					Server      		0.001
+					Unlock				2000
+					Submarkets			[ 5; 1; 0 ]
+					SoftwareCategories 	[Strategy]
+					}
+					{
+                    Name        "Cloud Saves"
+                    Description "Put saves in the internet"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+					Unlock		2000
+					Server      0.001
+                    Submarkets  [ 1; 0; 0 ]
+                    }
+					{
+					Name		"LAN"
+					Description "Allow people to play on their Local Network"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+                    Name        "Online Multiplayer"
+                    Description "Like local multiplayer, but online"
+                    DevTime     4
+                    Level       2
+                    CodeArt     1
+                    Server      0.001
+                    Submarkets  [ 2; 0; 0 ]
+                    }
+					{
+                    Name        "DRM"
+                    Description "Implement a Digital Rights Management against piracy, it increase the income by {Currency:0.5} per active user, but have a small change to get cracked."
+                    DevTime     4
+                    Level       3
+                    CodeArt     1
+					Server      0.001
+					Unlock		2000
+                    Submarkets  0
+					Script_EndOfDay "/Scripts/DRM.txt"					
+                    }
+					{
+                    Name        "Online Patches"
+                    Description "Randomly release correction patches to the game"
+                    DevTime     3
+                    Level       3
+                    CodeArt     1
+					Server      0.001
+                    Submarkets  0
+					Script_EndOfDay "/Scripts/Online Patches.txt"					
+                    }
+					{
+                    Name        "Loot Boxes"
+					Description "Greatly increase the income, but also can lose users, fans and market recognition"
+                    DevTime    	3
+                    Level       3
+                    CodeArt     1
+					Server      0.001
+					Unlock		2000
+                    Submarkets  0
+					Script_EndOfDay "/Scripts/Loot Boxes.txt"
+                    }
+				]
+			}
+		]
+	}

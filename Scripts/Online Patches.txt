@@ -1,0 +1,5 @@
+if((Product.Userbase > 400000) && (Random() > 0.9))
+{
+	Product.Bugs = Max(0, Product.Bugs - Product.Userbase * 0.01);	
+	AddPopup(Localize("NewPatch", Product.Name), 1, "Server", Good);
+}

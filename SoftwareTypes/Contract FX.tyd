@@ -1,0 +1,64 @@
+SoftwareType
+{
+	Name			"Sound Effects"
+	Category		Game Assets
+	Random			0
+	Popularity		0
+	Retention		1
+	IdealPrice		0
+	OptimalDevTime	1
+	SubmarketNames	[ 0; 0; 0 ]
+	Iterative		1
+	NameGenerator	None
+	OneClient		True
+	Features
+	[
+		Feature
+		{
+			Name		"2D Art"
+			Spec		2D
+			Optional	True
+			DevTime		1
+			CodeArt		0
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"Subtitle"
+					DevTime     1
+					Level       1
+					CodeArt     0.6
+					Submarkets  [ 1; 1; 1 ]
+				}
+			]
+		}
+		Feature
+		{
+			Name		Audio
+			Spec		Audio
+			DevTime		2
+			CodeArt		0.5
+			Submarkets	[ 1; 1; 1 ]
+			Features
+			[
+				Feature
+				{
+					Name		"Stereo"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+				}
+				Feature
+				{
+					Name		"Reverb"
+					DevTime		3
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 1; 1; 1 ]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+CompanyType
+	{
+	Specialization		"Console Operating Systems"
+	PerYear				0.2
+	Min					2
+	Max					3
+	Frameworks			False
+	NameGen				CompanyConsole
+Types
+        [
+            {
+            Software    "Operating System"
+            Category    Console
+            Chance        1
+            }
+            {
+            Software    "Game"
+            Chance        0.5
+            }
+        ]
+	}

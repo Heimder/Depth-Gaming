@@ -1,0 +1,20 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,sufix)
+Space
+City
+Kingdom
+Battleship
+Chess
+Clue
+Game
+-base2(stop,sufix)
+World
+craft
+Base
+front
+-sufix(stop)
+ Party
+ Masters
+ Board

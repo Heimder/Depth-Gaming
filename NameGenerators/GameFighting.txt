@@ -1,0 +1,34 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+Super 
+-base(base2,sufix)
+Alley
+Dark
+Street
+Grave
+Dream
+Army
+Hell
+Team
+War
+Final
+-base2(sufix,stop)
+wars
+World
+Clans
+Gangs
+Strike
+Ghost
+-sufix(stop)
+ Rebirth
+ Killer
+ Town
+ Arms
+ Arena
+ Evolved
+ Killer 
+ Fight
+ Force
+ Dragon
+ Rage

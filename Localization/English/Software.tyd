@@ -1,0 +1,479 @@
+﻿GamingHackTools "Gaming Hack Tools"
+GameAssets      "Game Assets"
+GamingTools     "Gaming Tools"
+Software
+    {
+    GamingHackTools
+        [
+        "Gaming Hack Tools"
+        "These tools was made either for fun, or to gain some advantage over other players"
+        ]
+    Features
+        [
+        Feature { Features "Features" }
+        Feature
+            {
+            Obfuscation [ "Obfuscation"; "Hide the software presence." ]
+            }
+        Feature
+            {
+            DevMode [ "Dev Mode"; "Give users access to dev tools" ]
+            }
+        Feature
+            {
+            GodMode [ "God Mode"; "Give users invencibility" ]
+            }
+        Feature
+            {
+            Macro
+                [
+                "Macro"
+                "Bind a set of sequential or parallel actions into one simple key."
+                ]
+            }
+        Feature
+            {
+            MultiLanguageSupport [ "Multi Language Support"; "So people around the globe can use it" ]
+            }
+        Feature
+            {
+            MultiInstance [ "Multi Instance"; "Allow to open the game in two different windows" ]
+            }
+        Feature
+            {
+            Search [ "Search"; "To find cheats easily" ]
+            }
+        Feature
+            {
+            DLLInjection [ "DLL Injection"; "Inject custom user scripts into the game." ]
+            }
+        Feature
+            {
+            Triggerbot
+                [
+                "Triggerbot"
+                "Automatically shoots when an opponent appears within the field-of-view or aiming reticule of the player."
+                ]
+            }
+        Feature
+            {
+            IAbot
+                [
+                "IAbot"
+                "A bot that mimic a player, so the user can “play” while is away."
+                ]
+            }
+        Feature { Interface "Interface" }
+        Feature
+            {
+            AimBot
+                [
+                "AimBot"
+                "Provide varying levels of automated target acquisition and calibration to the player"
+                ]
+            }
+        Feature
+            {
+            HUD [ "HUD"; "Adds a HUD for easy cheat selection or other propouses." ]
+            }
+        Feature
+            {
+            ShowFPS [ "Show FPS"; "Show the game frame per second rate" ]
+            }
+        Feature { 3DGameCheats "3D Game Cheats" }
+        Feature
+            {
+            Wallhack [ "Wallhack"; "Allow a user to see through solid or opaque objects" ]
+            }
+        Feature
+            {
+            Fly [ "Fly"; "The user is able to fly!!" ]
+            }
+        Feature
+            {
+            Noclip
+                [
+                "Noclip"
+                "Remove temporary the physics of the game, so the user can pass through walls."
+                ]
+            }
+        Feature { Networking "Networking" }
+        Feature
+            {
+            PlayerSearch [ "Player Search"; "The user can search for online players" ]
+            }
+        Feature
+            {
+            VPN [ "VPN"; "Virtual Private Network, used to hide the IP of users" ]
+            }
+        Feature
+            {
+            ArtificialLag
+                [
+                "Artificial Lag"
+                "Overflow the user or someone with junk data, what cause lagging on propose."
+                ]
+            }
+        Feature
+            {
+            ModeratorPrivilege
+                [
+                "Moderator Privilege"
+                "The user can give yourself a moderator status in online games"
+                ]
+            }
+        Feature
+            {
+            DDoSAttack
+                [
+                "DDoS Attack"
+                "Distributed denial of service can be used to overflow a game server with junk data and shut it down"
+                ]
+            }
+        Feature
+            {
+            Datamining
+                [
+                "Datamining"
+                "Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+                ]
+            }
+        Feature
+            {
+            BitcoinMining
+                [
+                "Bitcoin Mining"
+                "Mine bitcoin using your users' GPU to make an extra {Currency:0.1} per active user, at the risk of getting caught"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            GameTrainer
+                [
+                "Game Trainer"
+                "Basic software to enable cheats in games or modify the memory"
+                ]
+            }
+        Category
+            {
+            Bot [ "Bot"; "Tools made to give player advantages in online games" ]
+            }
+        ]
+    }
+
+Software
+    {
+    3DModel  "3D Model"
+    Features
+        [
+        Feature { 2DArt "2D Art" }
+        Feature { Conceptart "Concept art" }
+        Feature { Textures "Textures" }
+        Feature { 3DModels "3D Models" }
+        Feature { Facialanimations "Facial animations" }
+        Feature { SimulatedHairandCloth "Simulated Hair and Cloth" }
+        Feature { RiggingandAnimation "Rigging and Animation" }
+        ]
+    }
+
+Software
+    {
+    SoundEffects "Sound Effects"
+    Features
+        [
+        Feature { 2DArt "2D Art" }
+        Feature { Subtitle "Subtitle" }
+        Feature { Audio "Audio" }
+        Feature { Stereo "Stereo" }
+        Feature { Reverb "Reverb" }
+        ]
+    }
+
+Software
+    {
+    SpriteSheet "Sprite Sheet"
+    Features
+        [
+        Feature { 2DArt "2D Art" }
+        Feature { Conceptart "Concept art" }
+        Feature { CanvasSize "Canvas Size" }
+        Feature { PaletteColor "Palette Color" }
+        Feature { 3DRender "3D Render" }
+        Feature { 3DRendered "3D Rendered" }
+        ]
+    }
+
+Software
+    {
+    Tileset  "Tileset"
+    Features
+        [
+        Feature { 2DArt "2D Art" }
+        Feature { Conceptart "Concept art" }
+        Feature { CanvasSize "Canvas Size" }
+        Feature { PaletteColor "Palette Color" }
+        Feature { 3DRender "3D Render" }
+        Feature { 3DRendered "3D Rendered" }
+        ]
+    }
+
+Software
+    {
+    Emulator
+        [
+        "Emulator"
+        "Used by developers to test their games, but users can use it to practice piracy (dont do it yourself)"
+        ]
+    Features
+        [
+        Feature { Features "Features" }
+        Feature
+            {
+            SpeedControl [ "Speed Control"; "Allow users to speed or slow dowm the game" ]
+            }
+        Feature
+            {
+            MultiLanguageSupport [ "Multi Language Support"; "So people around the globe can use it" ]
+            }
+        Feature
+            {
+            Keybinding [ "Keybinding"; "Allow users to redefine the imputs of the game" ]
+            }
+        Feature
+            {
+            SaveState [ "Save State"; "For save scumming" ]
+            }
+        Feature { LightGunInput "Light Gun Input" }
+        Feature
+            {
+            CheatOptions [ "Cheat Options"; "Allow users to be cheaters" ]
+            }
+        Feature { PhysicalMediaSuport "Physical Media Suport" }
+        Feature
+            {
+            PluginSuport [ "Plugin Suport"; "Allow users create plugins to improve the emulator" ]
+            }
+        Feature
+            {
+            IPSAuto-Patching
+                [
+                "IPS Auto-Patching"
+                "Enable the emulator to aply IPS patches automaticaly"
+                ]
+            }
+        Feature { TouchSupport "Touch Support" }
+        Feature { MotionSupport "Motion Support" }
+        Feature
+            {
+            Multi-ThreadSupport [ "Multi-Thread Support"; "Add suport to multiple core processor" ]
+            }
+        Feature { Interface "Interface" }
+        Feature
+            {
+            EmulatedBIOS
+                [
+                "Emulated BIOS"
+                "Allow the emulator to reproduce the scary intro sounds"
+                ]
+            }
+        Feature
+            {
+            FilterOption
+                [
+                "Filter Option"
+                "Add some filters options to cahnge de apperance of the game"
+                ]
+            }
+        Feature
+            {
+            InterfaceCustomization
+                [
+                "Interface Customization"
+                "The user can change the position of things in the emulator"
+                ]
+            }
+        Feature
+            {
+            ShowClockOption [ "Show Clock Option"; "To know the hours or for speedrunning" ]
+            }
+        Feature
+            {
+            ShowFPSOption
+                [
+                "Show FPS Option"
+                "The user can chose if the emulator will show the game frame per second rate"
+                ]
+            }
+        Feature
+            {
+            ScreenShotSupport [ "ScreenShot Support"; "Users can save an image of current gameplay" ]
+            }
+        Feature
+            {
+            Themes [ "Themes"; "Dark mode switch on!" ]
+            }
+        Feature
+            {
+            MovieRecord [ "Movie Record"; "Users can record the current gameplay" ]
+            }
+        Feature
+            {
+            VideoConfiguration
+                [
+                "Video Configuration"
+                "The user can change aspectio rate, scaling, etc..."
+                ]
+            }
+        Feature { 3DRendering "3D Rendering" }
+        Feature
+            {
+            VRSuport [ "VR Suport"; "Enable suport to VR devices" ]
+            }
+        Feature { Audio "Audio" }
+        Feature
+            {
+            UserInputSpeech [ "User Input Speech"; "For games that use speech commands" ]
+            }
+        Feature { Networking "Networking" }
+        Feature { LANMultiplayerSuport "LAN Multiplayer Suport" }
+        Feature { InternetMultiplayerSuport "Internet Multiplayer Suport" }
+        Feature
+            {
+            Datamining
+                [
+                "Datamining"
+                "Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+                ]
+            }
+        Feature
+            {
+            BitcoinMining
+                [
+                "Bitcoin Mining"
+                "Mine bitcoin using your users' GPU to make an extra {Currency:0.1} per active user, at the risk of getting caught"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    GameEngine
+        [
+        "Game Engine"
+        "The game engine is what powers a game. It contains everything needed for a game, except for the creativity."
+        ]
+    Features
+        [
+        Feature { Features "Features" }
+        Feature
+            {
+            ASCIITextSupport [ "ASCII Text Support"; "Add text suport to games" ]
+            }
+        Feature
+            {
+            DevMode [ "Dev Mode"; "In-game tools used to test the game." ]
+            }
+        Feature
+            {
+            Search [ "Search"; "Usefull to find assets" ]
+            }
+        Feature
+            {
+            Scripting [ "Scripting"; "Seperate the game logic from the logic logic" ]
+            }
+        Feature
+            {
+            ModdingSupport [ "Modding Support"; "People love mods in their games" ]
+            }
+        Feature
+            {
+            Multi-ThreadSupport
+                [
+                "Multi-Thread Support"
+                "Add suport to multiple core processor in games"
+                ]
+            }
+        Feature
+            {
+            MultiLanguageSupport [ "Multi Language Support"; "So people around the globe can use it" ]
+            }
+        Feature { 2DRender "2D Render" }
+        Feature
+            {
+            2DAssets [ "2D Assets"; "Help the developer along with some prepackaged assets" ]
+            }
+        Feature
+            {
+            InterfaceCustomization
+                [
+                "Interface Customization"
+                "The user can change the position of things in the engine"
+                ]
+            }
+        Feature
+            {
+            Themes [ "Themes"; "Dark mode switch on!" ]
+            }
+        Feature
+            {
+            VisualEditor [ "Visual Editor"; "Drag'n'drop is the best" ]
+            }
+        Feature { Isometric2DSuport "Isometric 2D Suport" }
+        Feature
+            {
+            VisualScripting
+                [
+                "Visual Scripting"
+                "It's like programming, but you use the mouse more"
+                ]
+            }
+        Feature { 3DRender "3D Render" }
+        Feature
+            {
+            3DAssets [ "3D Assets"; "Like 2D assets, but with an extra dimension" ]
+            }
+        Feature
+            {
+            Lights [ "Lights"; "The oposite of Shadows" ]
+            }
+        Feature
+            {
+            Shadows [ "Shadows"; "A very CREATIVE feature" ]
+            }
+        Feature
+            {
+            AdvancedShaders
+                [
+                "Advanced Shaders"
+                "Not everything has to be flat! The irony is not lost on me"
+                ]
+            }
+        Feature { LensFlareSuport "Lens Flare Suport" }
+        Feature
+            {
+            RayTracingSuport
+                [
+                "Ray Tracing Suport"
+                "Add suport to an advanced light system in games"
+                ]
+            }
+        Feature
+            {
+            VRSuport [ "VR Suport"; "Enable virtual reality in games" ]
+            }
+        Feature { Audio "Audio" }
+        Feature { AudioAssets "Audio Assets" }
+        Feature { Networking "Networking" }
+        Feature { LANMultiplayerSuport "LAN Multiplayer Suport" }
+        Feature { InternetMultiplayerSuport "Internet Multiplayer Suport" }
+        Feature
+            {
+            AssetsStore [ "Assets Store"; "Sell assets online for a bit more profit" ]
+            }
+        ]
+    }
+

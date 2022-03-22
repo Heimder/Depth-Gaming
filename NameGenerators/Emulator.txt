@@ -1,0 +1,32 @@
+-start(base,base,base2,pre)
+-pre(base,base2)
+The 
+Super 
+-base(sufix)
+Source
+Real
+Bit
+True
+Vision
+Fast
+Field
+Land
+Opti
+Core
+-base2(sufix2)
+Arcade
+Console
+Mobile
+OS
+-sufix(sufix2)
+ Arcade
+ Console
+ Mobile
+ OS
+-sufix2(sufix3,end)
+ Emulator
+ Machine Emulator
+ Virtual Machine
+-sufix3(end)
+ Lite
+ Advanced

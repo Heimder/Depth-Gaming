@@ -1,0 +1,25 @@
+[REPLACE]
+-start(base,base,base,base,egg)
+-base(stop)
+Atary Inc.
+Bandai Namco
+Capcom
+Coleco
+Commodore
+Data East
+Fairchild
+Konami
+Mattel Electronics
+Microsoft
+Midway Games
+NEC
+Nintendo
+Philips
+Sega
+SNK
+Sony
+Taito
+TecToy
+-egg(stop)
+Hipbone Inc.
+Heimsoft
